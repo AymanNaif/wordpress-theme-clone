@@ -1,0 +1,13 @@
+.token_sale_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 56px;
+}
+
+.token_sale_title {
+  color: #4039D4;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  margin: 0px 0px 36px 0px;
+}

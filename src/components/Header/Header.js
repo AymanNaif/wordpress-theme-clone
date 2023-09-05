@@ -9,11 +9,11 @@ const Header = () => {
     <header className={classes.header}>
       <img src={myLogo} alt="Logo" />
       <nav className={classes.nav}>
-        <NavLink to='/' className={(isActive) => isActive && 'active'}>Home</NavLink>
-        <NavLink to='/home-two' className={(isActive) => isActive && 'active'}>Home 2</NavLink>
-        <NavLink to='/blog' className={(isActive) => isActive && 'active'}>Blog</NavLink>
+        <NavLink to='/' className={({ isActive }) => isActive ? classes.active : undefined} end>Home</NavLink>
+        <NavLink to='/home-two' className={({ isActive }) => isActive ? classes.active : undefined} end>Home 2</NavLink>
+        <NavLink to='/blog' className={({ isActive }) => isActive ? classes.active : undefined} end>Blog</NavLink>
       </nav>
-      <LinkButton path='/sign-up' text='Sign Up' type='secondary' />
+      <LinkButton path='/sign-up' type='secondary' >Sign Up</LinkButton>
     </header>
   )
 }

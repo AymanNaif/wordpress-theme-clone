@@ -1,0 +1,15 @@
+.first_section {
+  padding-top: 90px;
+  display: flex;
+  justify-content: center;
+  padding-inline: 30%;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first_section .link_btns_container{
+  display: flex;
+  gap: 20px;
+  margin-block: 40px;
+}

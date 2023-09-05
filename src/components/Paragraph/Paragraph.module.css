@@ -1,0 +1,17 @@
+.header_text {
+  color: #23292C;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 66px;
+  margin: 0;
+}
+
+.description_text {
+  margin: 12px 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #7A7A7A;
+  margin: 0;
+
+}

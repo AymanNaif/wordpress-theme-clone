@@ -6,6 +6,8 @@
   display: flex;
   gap: 4px;
   font-size: 15px;
+  width: fit-content;
+  transition: 0.4s;
 }
 
 .secondary_btn {
@@ -24,4 +26,7 @@
 .blue_btn {
   background-color: #4039D4;
   color: white;
+}
+.blue_btn:hover{
+  background-color: #5674FF;
 }

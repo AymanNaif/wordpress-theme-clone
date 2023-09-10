@@ -1,17 +1,29 @@
-.first_section {
-  padding-top: 90px;
+.first_section,
+.second_section {
+  padding: 90px 30% 180px 30%;
   display: flex;
   justify-content: center;
-  padding-inline: 30%;
-  text-align: center;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 180px;
-
+  text-align: center;
 }
 
-.first_section .link_btns_container{
+.first_section .link_btns_container {
   display: flex;
   gap: 20px;
   margin-block: 40px;
+}
+
+.second_section .vertical_line {
+  width: 33px;
+  height: 3px;
+  background-color: #91A4FF;
+  border-radius: 2px;
+}
+
+.second_section_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }

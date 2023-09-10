@@ -6,6 +6,8 @@
   text-align: center;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 180px;
+
 }
 
 .first_section .link_btns_container{

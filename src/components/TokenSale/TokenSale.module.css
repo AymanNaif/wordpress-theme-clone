@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 56px;
+  
 }
 
 .token_sale_title {
@@ -11,12 +12,21 @@
   line-height: 36px;
   margin: 0px 0px 36px 0px;
 }
-.footer{
+
+.footer {
   display: flex;
   justify-content: center;
   margin-top: 40px;
 }
-.footer a{
-  font-weight: 600;
 
+.footer a {
+  font-weight: 600;
+}
+
+.icons {
+  margin-top: 20px;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  color: #5F5F5F;
 }

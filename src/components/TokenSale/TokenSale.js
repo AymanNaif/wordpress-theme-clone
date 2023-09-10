@@ -3,7 +3,10 @@ import Timer from './Timer'
 import classes from './TokenSale.module.css'
 import ChartBar from './ChartBar'
 import LinkButton from '../LinkButton/LinkButton'
-import { BsNewspaper } from 'react-icons/bs'
+import { FaBitcoin } from "react-icons/fa";
+import { SiBinance, SiAmazonrds} from "react-icons/si";
+import { BsPaypal } from "react-icons/bs";
+
 
 const TokenSale = () => {
 
@@ -45,6 +48,12 @@ const TokenSale = () => {
       <ChartBar leftTitle={{ title: 'Raised', description: '1,450 Tokens' }} rightTitle={{ title: 'Target', description: '150,000 Tokens' }} bar_data={{ start: 'Soft cap', mid: 'Crowd sale', end: 'Hard cap' }} />
       <div className={classes.footer}>
         <LinkButton type='blue'> Buy Token Now</LinkButton>
+      </div>
+      <div className={classes.icons}>
+        <FaBitcoin></FaBitcoin>
+        <SiBinance></SiBinance>
+        <BsPaypal></BsPaypal>
+        <SiAmazonrds></SiAmazonrds>
       </div>
     </>
   )
